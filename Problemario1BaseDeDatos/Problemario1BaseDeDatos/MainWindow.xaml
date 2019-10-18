@@ -21,7 +21,7 @@
     <DockPanel Name="dockMain" VerticalAlignment="Top" HorizontalAlignment="Center" LastChildFill="False">
         <StackPanel>
 
-            <Label Content="    LAS DIVAZAS&#xD;&#xA;  DANCE SCHOOL" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" Height="117" Width="382"/>
+            <Label Content="    LAS DIVAZAS&#xD;&#xA;  DANCE   SCHOOL  " HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" Height="117" Width="382"/>
 
             <WrapPanel>
                 <TextBlock Text="ID:"/>
