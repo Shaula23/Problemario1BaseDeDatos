@@ -93,7 +93,7 @@ namespace Problemario1BaseDeDatos
                 }
                 else
                 {
-                    cmd.CommandText = "update Registro set Nombre='" + txtNombre.Text + "',TipoBaile='" + cbTipBaile.Text + "',Numtel=" + txtTelefono.Text + ",Direccion='" + txtDireccion.Text + "'where Id=" + txtId.Text;
+                    cmd.CommandText = "update Registro set Nombre='" + txtNombre.Text + "',TipoBaile='" + cbTipBaile.Text + "',Numtel='" + txtTelefono.Text + "',Direccion='" + txtDireccion.Text + "'where Id=" + txtId.Text;
                     cmd.ExecuteNonQuery();
                     MostrarDatos();
                     MessageBox.Show("Datos Actualizados...");
